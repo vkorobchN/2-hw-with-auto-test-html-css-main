@@ -51,7 +51,7 @@ header span {
 
 .main-image {
     /* Стили для изображения в первой секции */
-    max-height: 715px;
+    max-width: 715px;
 }
 
 
@@ -82,14 +82,16 @@ select {
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
     list-style-image: url(./assets/solar_map-arrow-up-bold.png);
-    padding-left: 20px;
+    padding-left: 0 20px;
     font-size: 16px;
+    font-weight: 400;
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
     font-size: 16px;
-    padding-left: 20px;
+    font-weight: 400;
+    padding-left: 0 20px;
 
 }
 
@@ -153,8 +155,7 @@ th, td {
     border-style: solid;
     font-size: 14px;
     text-align: left;
-    padding: 12px;
-    padding-left: 15px;
+    padding: 12px 15px;
 }
 
 footer {
