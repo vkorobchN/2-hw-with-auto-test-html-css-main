@@ -82,7 +82,7 @@ select {
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
     list-style-image: url(./assets/solar_map-arrow-up-bold.png);
-    padding-left: 0 20px;
+    padding: 0 20px;
     font-size: 16px;
     font-weight: 400;
 }
@@ -91,7 +91,7 @@ select {
     /* Стили для нумерованного списка во второй секции */
     font-size: 16px;
     font-weight: 400;
-    padding-left: 0 20px;
+    padding: 0 20px;
 
 }
 
@@ -144,6 +144,7 @@ table {
     width: 300px;
     height: 196px;
     border-collapse: collapse;
+    font-size: 14px;
 }
 
 th, td {
@@ -153,7 +154,6 @@ th, td {
     border-width: 1px;
     border-color: #95a1bb;
     border-style: solid;
-    font-size: 14px;
     text-align: left;
     padding: 12px 15px;
 }
